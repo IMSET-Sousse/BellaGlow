@@ -4,6 +4,7 @@ body{
  .section-padding{
     padding: 100px 0;
  }
+ 
  .section-header{
     margin-bottom: 50px;
  }
@@ -86,7 +87,7 @@ body{
     text-decoration: none;
     padding: 5px 20px;
     display: inline-block;
-    background: #bb5293;
+    background: #ffd1dc;
     font-weight: 600;
     margin-top: 15px;
     border-radius: 5px;
@@ -126,12 +127,12 @@ body{
  /* stats */
  
  .stats{
-    background: #E1B0AC;
+    background: #ffd1dc;
     color: #fff;
  }
  .single-number i{
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 15px;
  }
  .single-number h2{
     font-weight: 700;
@@ -283,8 +284,8 @@ body{
  
  footer{
     background: #E1B0AC;
-    padding: 35px 0;
     color: #fff;
+
  }
  .socials i{
     font-size: 25px;
