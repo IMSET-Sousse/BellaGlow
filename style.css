@@ -1,5 +1,6 @@
 body{
     font-family: montserrat;
+    
  }
  .section-padding{
     padding: 100px 0;
@@ -13,7 +14,12 @@ body{
     font-size: 40px;
  }
  .section-header h2 span{
-    color:#966275;
+    color:#bd3d5b;
+
+ }
+ .section-header p{
+   font-size: 26px;
+   font-weight: 15px;
  }
  .navbar{
     background: #fff;
@@ -47,12 +53,15 @@ body{
  }
  
  /* carousel */
+
+
  .carousel-item{
     height: 100vh;
-    min-height: 300px;
+    min-height: 250px;
+   
  }
  .bg-1{
-    background-image: url(img/gl.1.svg);
+    background-image: url(img/bgl.2.svg);
  }
  .bg-2{
     background-image: url(img/gl.2.svg);
@@ -87,7 +96,7 @@ body{
     text-decoration: none;
     padding: 5px 20px;
     display: inline-block;
-    background: #ffd1dc;
+    background: #bd3d5b;
     font-weight: 600;
     margin-top: 15px;
     border-radius: 5px;
@@ -106,16 +115,17 @@ body{
  .ab-img img{
     width: 100%;
  }
+
  .about-text h4{
     color: #966275;
     font-size: 18px;
  }
  .about-text p{
-    color: rgb(149, 172, 149);
+    color: rgb(26, 19, 22);
     line-height: 1.8;
  }
  .about-text a{
-    background: #966275;
+    background: #bd3d5b;
     text-decoration: none;
     color: #fff;
     padding: 10px 30px;
@@ -127,7 +137,7 @@ body{
  /* stats */
  
  .stats{
-    background: #ffd1dc;
+    background: #fc9db3;
     color: #fff;
  }
  .single-number i{
@@ -139,11 +149,11 @@ body{
  }
  
  /* services */
- 
+
  .single-service{
     padding: 30px;
     transition: all 0.5s ease-in-out;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 15px #ffb9e166;
  }
  .single-service i{
     font-size: 60px;
@@ -152,7 +162,7 @@ body{
  }
  .single-service a{
     text-decoration: none;
-    background: #f9b7cf;
+    background: #bd3d5b;
     padding: 10px 30px;
     color: #fff;
     display: inline-block;
@@ -215,10 +225,10 @@ body{
  }
  
  
- /* trainers */
+ /* Estheticians */
  
  .single-trainer{
-    box-shadow: 0 2px 20px rgba(241, 99, 177, 0.4);
+    box-shadow: 0 2px 20px #ffb9e166;
  }
  .single-trainer .card-title{
     font-size: 25px;
@@ -239,7 +249,7 @@ body{
     border-radius: 5px;
  }
  .single-blog{
-    box-shadow: 0 2px 20px;
+    box-shadow: 0 2px 20px #ffb9e166;
  }
  .single-blog .card-title{
     font-weight: 600;
@@ -274,7 +284,7 @@ body{
     margin: 10px 0;
  }
  .contact .btn{
-    background: #E1B0AC;
+    background: #bd3d5b;
     color: #fff;
     display: inline-block;
     margin-top: 30px;
