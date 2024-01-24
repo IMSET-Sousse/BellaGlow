@@ -57,22 +57,25 @@ body{
 
  .carousel-item{
     height: 100vh;
-    min-height: 250px;
+    min-height: 200px;
    
  }
  .bg-1{
-    background-image: url(img/bgl.2.svg);
+    background-image: url(img/bt.jpg);
+   
  }
  .bg-2{
-    background-image: url(img/gl.2.svg);
+    background-image: url(img/bt1.jpg);
  }
  .bg-3{
-    background-image: url(img/gl3.svg);
+    background-image: url(img/bt2.jpg);
  }
  .bg-1,
  .bg-2,
  .bg-3{
     background-size:cover;
+    height: 500px;
+    width: 500px;
  }
  .carousel-caption{
     bottom: 250px;
@@ -139,13 +142,14 @@ body{
  .stats{
     background: #fc9db3;
     color: #fff;
+
  }
  .single-number i{
     font-size: 35px;
     margin-bottom: 15px;
  }
  .single-number h2{
-    font-weight: 700;
+    font-weight: 600;
  }
  
  /* services */
