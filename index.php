@@ -51,51 +51,64 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Estheticians</a>
-            </li>
-
-            <li class="nav-item">
               <a class="nav-link" href="#Blog">Pack</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="login.php"> login</a>
             </li>
 
         </div>
       </div>
     </nav>
  
-<!--carousel-->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
- 
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
   
+  <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active bg-1">
+    <div class="carousel-item active">
+      <img src="img/service.jpg" alt="Los Angeles" class="d-block" style="width:100%">
       <div class="carousel-caption">
-<h5 class="animated fadeInDown"style="animation-delay: 1s;"> Welcome to <br> <span class="text-danger background">BellaGlow Center</span></h5>
-<p class="animated fadeInUp" style="animation-delay: 1s;">Where Beauty Meets Serenity,we invite you to immerse yourself in a haven where self-care create a life of harmonious beauty.</p>
+      <h5 class="animated fadeInDown"style="animation-delay: 1s;"> <span class="text-white"> Welcome to <br> <span class="text-danger background">BellaGlow Center</span></h5>
+<p class="animated fadeInUp" style="animation-delay: 1s;"><span class="text-white">Where Beauty Meets Serenity,we invite you to immerse yourself in a haven where self-care create a life of harmonious beauty.</p>
 <a href="service.phh"class="btn">Learn More</a>
       </div>
     </div>
-    <div class="carousel-item bg-2">
+    <div class="carousel-item">
+      <img src="img/service3.jpg" alt="Chicago" class="d-block" style="width:100%">
       <div class="carousel-caption">
-        <h5 class="animated fadeInDown"style="animation-delay: 1s;">beauty <span class="text-danger background">LifeStyle</span></h5>
-        <p class="animated fadeInUp" style="animation-delay: 1s;">Enhance Your Beauty, Elevate Your Confidence and Stay connected with the latest beauty trends..</p>
+      <h5 class="animated fadeInDown"style="animation-delay: 1s;">beauty <span class="text-danger background">LifeStyle</span></h5>
+        <p class="animated fadeInUp" style="animation-delay: 1s;"> Enhance Your Beauty, Elevate Your Confidence and Stay connected with the latest beauty trends..</p>
         <a href="service.php"class="btn">discover More</a>
-              </div>
+      </div> 
     </div>
-    <div class="carousel-item bg-3">
+    <div class="carousel-item">
+      <img src="img\service1.jpg" alt="New York" class="d-block" style="width:100%" width="900px" height="700px">
       <div class="carousel-caption">
-        <h5 class="animated fadeInDown"style="animation-delay: 1s;">Hair &  <span class="text-danger background">Treatments</span></h5>
+      <h5 class="animated fadeInDown"style="animation-delay: 1s;">Hair &  <span class="text-danger background">Treatments</span></h5>
         <p class="animated fadeInUp" style="animation-delay: 1s;">Because you need time for yourself, unlock the Secrets to Gorgeous, Healthy Hair.</p>
         <a href="service.php"class="btn">discover More</a>
-        </div>
+      </div>  
     </div>
   </div>
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
 
 
@@ -247,7 +260,7 @@
         <div class="card">
           <img src="img/es1.jpg" alt="" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">Maha Bouabdi</h5>
+            <h5 class="card-title">Rania Fkih</h5>
             <p class="card-text">Beauty Advisor, Spa Manager, Laser Technician</p>
            </div>
         </div>
@@ -290,51 +303,69 @@
       <div class="col-lg-12">
         <div class="section-header text-center">
           <h2>Our<span> Pack</span></h2>
-          <p>Best Prices in Town</p>          
+          <p>Best Prices in Town</p>   
+          <h1></h1>       
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-4"> 
+      <div class="col-lg-3"> 
         <div class="single-blog text-center">
           <div class="card">
-            <img src="img/blog1.jpg" alt="" class="card-img-top">
+            <img src="img/nails.jpg" alt="" class="card-img-top" width="100px" height="400px">
             <div class="card-body">
-              <h5 class="card-title">Woman’s Haircut </h5>
-              <p class="card-text">50$</p>
+              <h5 class="card-title">Gel Nails </h5>
+              <p class="card-text">20$==50$</p>
            <a href="#">discover More</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4"> 
+     
+      <div class="col-lg-3"> 
         <div class="single-blog text-center">
           <div class="card">
-            <img src="img/blog2.jpg" alt="" class="card-img-top">
+            <img src="img/haircut.jpg" alt="" class="card-img-top" width="100px" height="400px">
             <div class="card-body">
-              <h5 class="card-title">Treat Body as temple </h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum cumque iure sunt similique eius nihil</p>
-           <a href="#">Learn More</a>
+              <h5 class="card-title">Haircut </h5>
+              <p class="card-text">20$==50$</p>
+           <a href="#">discover More</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4"> 
+     
+      <div class="col-lg-3"> 
         <div class="single-blog text-center">
           <div class="card">
-            <img src="img/blog3.jpg" alt="" class="card-img-top">
+            <img src="img/coloration.jpg" alt="" class="card-img-top" width="100px" height="400px">
             <div class="card-body">
-              <h5 class="card-title">Treat Body as temple </h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum cumque iure sunt similique eius nihil</p>
-           <a href="#">Learn More</a>
+              <h5 class="card-title">Hair coloration </h5>
+              <p class="card-text">30$==100$</p>
+           <a href="#">discover More</a>
             </div>
           </div>
         </div>
+      </div>
+
+
+      <div class="col-lg-3"> 
+        <div class="single-blog text-center">
+          <div class="card">
+            <img src="img/makeup.jpg" alt="" class="card-img-top" width="100px" height="400px">
+            <div class="card-body">
+              <h5 class="card-title">Makeup </h5>
+              <p class="card-text">50$==200$</p>
+           <a href="#">discover More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       </div>
     </div>
-
-
   </div>
 </div>
 

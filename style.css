@@ -60,29 +60,14 @@ body{
     min-height: 200px;
    
  }
- .bg-1{
-    background-image: url(img/bt.jpg);
-   
- }
- .bg-2{
-    background-image: url(img/bt1.jpg);
- }
- .bg-3{
-    background-image: url(img/bt2.jpg);
- }
- .bg-1,
- .bg-2,
- .bg-3{
-    background-size:cover;
-    height: 500px;
-    width: 500px;
- }
+
+ 
  .carousel-caption{
     bottom: 250px;
     z-index: 2;
     text-align: left;
     left: 8%;
-    color: #262626;
+    color: #ffffff;
  }
  .carousel-caption h5{
     font-size: 55px;
@@ -91,8 +76,9 @@ body{
  }
  .carousel-caption p{
     width: 45%;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.9;
+    color: #fff;
  }
  .carousel-caption .btn{
     text-transform: uppercase;

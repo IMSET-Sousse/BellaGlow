@@ -28,7 +28,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
   
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class=" text-danger background ">Bella</span>Glow</a>
+      <a class="navbar-brand" href="#"><span class=" text-danger background ">Bella</span>Glow</a> 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,7 +56,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="login.php"> login</a>
             </li>
             
 
@@ -69,39 +69,6 @@ if (isset($_GET) && $_GET && $_GET['search']){
     </nav>
  
 
-
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img\service.jpg" alt="Los Angeles" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="img\service1.jpg" alt="Chicago" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="img\service3.jpg" alt="New York" class="d-block w-100">
-    </div>
-  </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-
 <!--about-->
 
 
@@ -110,27 +77,27 @@ if (isset($_GET) && $_GET && $_GET['search']){
     <div class="row">
       <div class="col-lg-12">
         <div class="section-header text-center">
-          <h2>  Welcome to  <span> BellaGlow</span></h2>
+         <h2>  Welcome to  <span> BellaGlow</span></h2>
           <p> space for everyone</p>
         </div>
       </div>
     </div>
  
     <div class="row">
-      <div class="col-lg-5 col-sm-12">
-        <div class="ab-img">
-          <img src="img/glow.jpeg" alt=""  width="400" height="350"> 
-        </div>
+    <div class="col-md-4 mx-auto">
+            <video controls class="img-fluid">
+                <source src="Beauty Tutorial.mp4" type="video/mp4" width="320" height="240">
+                Votre navigateur ne prend pas en charge la lecture de la vidéo.
+            </video>
         </div>
      
-
       <div class="col-lg-5 col-sm-12">
-        <div class="about-text">
-        <h4>Welcome To BellaGlow</h4>
+        <div class="about-text"> <br><br> <br><br> 
+        <h4>Welcome To BellaGlow</h4><br>
         <h2>better life with perfect body</h2>
           <p>our  Center is founded on the belief that beauty should be accessible to all,
             Peaceful spa treatments for deep relaxation of the mind, reducing stress and life changing services. Whether you want to feel better in yourself, are attending a work or family event or maybe have a wedding come around, we have the treatments you need to look your best and feel amazing
-          </p>
+          </p><br>
           <a href="#">discover  More</a>
         </div>
     </div>
@@ -180,6 +147,59 @@ if (isset($_GET) && $_GET && $_GET['search']){
       </div>
 
      
+  </div>
+</div>
+
+<!-- Estheticians-->
+
+<div class="trainer section-padding " id="trainer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-header text-center">
+          <h2>Our<span> Estheticians</span></h2>
+          <p>becauce you need time for yourself</p>          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+       <div class="single-trainer text-center">
+        <div class="card">
+          <img src="img/es1.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Rania Fkih</h5>
+            <p class="card-text">Beauty Advisor, Spa Manager, Laser Technician</p>
+           </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single-trainer text-center">
+         <div class="card">
+           <img src="img/es2.jpg" alt="" class="card-img-top">
+           <div class="card-body">
+             <h5 class="card-title">Imen Berriri</h5>
+             <p class="card-text">Makeup Artist or Medical Aesthetician</p>
+          
+           </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-lg-4">
+        <div class="single-trainer text-center">
+         <div class="card">
+           <img src="img/es3.jpg" alt="" class="card-img-top">
+           <div class="card-body">
+             <h5 class="card-title">Amira Rouabeh</h5>
+             <p class="card-text">Medical Aesthetician and Spa Manager</p>
+         
+           </div>
+         </div>
+        </div>
+       </div>
+    </div>
   </div>
 </div>
 
