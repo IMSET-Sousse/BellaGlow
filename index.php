@@ -1,4 +1,19 @@
+<?php
+    if (isset($_POST) && $_POST){
+        include_once("connect.php");
 
+        $sql = "INSERT INTO contact2 (name, email, password) 
+        VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['password'] . "');";
+    
+        if ($conn->query($sql) === TRUE) {
+            echo "";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+        
+        $conn->close();
+    }
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -317,6 +332,26 @@
  </div>
 </div>
 
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="footer-content text-center">
+          <p>All Right Reserved</p>
+          <p class="socials">
+           <i class="fa fa-pinterest"></i>
+           <i class="fa fa-youtube"></i>
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-Instagram"></i>
+            <br><br>    
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>

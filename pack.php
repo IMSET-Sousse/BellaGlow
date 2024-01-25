@@ -11,6 +11,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
 
   $result = $conn->query($sql);
   $conn->close();
+    
 ?>
 <!doctype html>
 <html lang="en">
@@ -220,8 +221,8 @@ if (isset($_GET) && $_GET && $_GET['search']){
   <div class="row">
     <div class="col-lg-12">
       <div class="section-header text-center">
-        <h2>Contact <span>US</span></h2>
-        <p>For More informations</p>          
+        <h2>Reserve <span>Now</span></h2>
+        <p>it's time for yoursself </p>          
       </div>
     </div>
   </div>  
@@ -238,15 +239,17 @@ if (isset($_GET) && $_GET && $_GET['search']){
       </div>
     </div>
 <div class="col-lg-6 offest-lg-1 col-sm-12">
-  <form action="index.php" method="POST">
-  <label for="name" class="form-label">Name</label>
-  <input type="text" class="form-control" id="name" name="name">
+  <form  action="resv.php" method="POST">
+  <label for="first name" class="form-label">first name</label>
+  <input type="text" class="form-control" id="first name" name="first name">
     
-    <label for="email">Your Email</label> 
-    <input type=" text" class="form-control" name="email"id="email">
-    <label for="password" class="form-label">Password</label>
-   <input type="password" class="form-control" id="password" name="password">
-    <button class="btn" type="submit">Submit Form</button>
+    <label for="last name">last name</label> 
+    <input type=" text" class="form-control" name="last name"id="last name">
+    <label for="massage" class="form-label">massage</label>
+   <input type="massage" class="form-control" id="massage" name="massage">
+   <label for="phone" class="form-label">Phone</label>
+   <input type="number" class="form-control" id="Phone" name="Phone">
+    <button class="btn" type="submit">Reserve nom</button>
   </form>
 </div>
   </div>
@@ -254,6 +257,24 @@ if (isset($_GET) && $_GET && $_GET['search']){
 </div>
 
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="footer-content text-center">
+          <p>All Right Reserved</p>
+          <p class="socials">
+           <i class="fa fa-pinterest"></i>
+           <i class="fa fa-youtube"></i>
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-Instagram"></i>
+            <br><br>    
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
