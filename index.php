@@ -1,19 +1,4 @@
-<?php
-    if (isset($_POST) && $_POST){
-        include_once("connect.php");
 
-        $sql = "INSERT INTO `contact2` (`name`, `email`, `password`) 
-        VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['password'] . "');";
-    
-        if ($conn->query($sql) === TRUE) {
-            echo "";
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
-        
-        $conn->close();
-    }
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,7 +7,7 @@
     <title>BellaGlow</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/697f7d2aae.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/5.3.0/animate.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -51,7 +36,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Blog">Pack</a>
+              <a class="nav-link" href="pack.php">Pack</a>
             </li>
 
             <li class="nav-item">
@@ -293,101 +278,6 @@
     </div>
   </div>
 </div>
-
-
-<!--pack-->
-
-<div class="blog section-padding" id="blog">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="section-header text-center">
-          <h2>Our<span> Pack</span></h2>
-          <p>Best Prices in Town</p>   
-          <h1></h1>       
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-3"> 
-        <div class="single-blog text-center">
-          <div class="card">
-            <img src="img/nails.jpg" alt="" class="card-img-top" width="100px" height="400px">
-            <div class="card-body">
-              <h5 class="card-title">Gel Nails </h5>
-              <p class="card-text">20$==50$</p>
-           <a href="#">discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-      <div class="col-lg-3"> 
-        <div class="single-blog text-center">
-          <div class="card">
-            <img src="img/haircut.jpg" alt="" class="card-img-top" width="100px" height="400px">
-            <div class="card-body">
-              <h5 class="card-title">Haircut </h5>
-              <p class="card-text">20$==50$</p>
-           <a href="#">discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-      <div class="col-lg-3"> 
-        <div class="single-blog text-center">
-          <div class="card">
-            <img src="img/coloration.jpg" alt="" class="card-img-top" width="100px" height="400px">
-            <div class="card-body">
-              <h5 class="card-title">Hair coloration </h5>
-              <p class="card-text">30$==100$</p>
-           <a href="#">discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-3"> 
-        <div class="single-blog text-center">
-          <div class="card">
-            <img src="img/makeup.jpg" alt="" class="card-img-top" width="100px" height="400px">
-            <div class="card-body">
-              <h5 class="card-title">Makeup </h5>
-              <p class="card-text">50$==200$</p>
-           <a href="#">discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- quote -->
-<div class="quote section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="single-quote text-center">
-          <p>
-            <i class="fa-solid fa-quote-left"></i>
-            Beauty is incomplete without self-care, for every moment dedicated to nurturing yourself adds to your radiance and allure.
-            <i class="fa-solid fa-quote-right"></i>
-            <h5> Elise Joan</h5>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- contact -->
 <div class="contact section-padding" id="contact">
  <div class="container">
@@ -427,24 +317,7 @@
  </div>
 </div>
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="footer-content text-center">
-          <p>All Right Reserved</p>
-          <p class="socials">
-           <i class="fa fa-pinterest"></i>
-           <i class="fa fa-youtube"></i>
-           <i class="fa fa-facebook"></i>
-           <i class="fa fa-Instagram"></i>
-            <br><br>    
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 

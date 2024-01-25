@@ -1,9 +1,11 @@
 <?php
+   
    if (isset($_POST) && $_POST){
     include_once("connect.php");
-    $sql = "SELECT `email`,'password' FROM `contact2  ` WHERE `email` = '" . $_POST['email']. "' and `password` = '" . $_POST['password'] . "';";
+    
+    $sql = "SELECT email,'password' FROM contact2 WHERE email = '" . $_POST['email']. "' and password = '" . $_POST['password'] . "';";
     $result = $conn->query($sql);
-    if (mysqli_num_rows($result) ==6){
+    if (mysqli_num_rows($result) == 0){
         echo "User not found: Check your credentail";
     }else{
         $user = mysqli_fetch_assoc($result);
@@ -13,9 +15,8 @@
        
         $_SESSION["email"] = $user['email'];
         $_SESSION["password"] = $user['password'];
-       
 
-        header('home.php');
+        header('indexx.php');
         die;
     }
     $conn->close();
@@ -96,7 +97,7 @@
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black">
 
-                <form  action="login.php" method="post">
+                <form  action="indexx.php" method="post">
 
                   <div class="d-flex align-items-center mb-3 pb-1">
                    <h5> <span class="text-danger background">LogIn</span></h5>

@@ -110,44 +110,35 @@ if (isset($_GET) && $_GET && $_GET['search']){
 <!--services-->
 
 <div class="services section-padding" id="services">
-
 <div class="container">
 <div class="row">
-<?php 
-            if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) { ?>
       <div class="col-lg-12">
-   
         <div class="section-header text-center">
           <h2>Our <span> Services</span></h2>
           <p>Exprience the best beauty services  </p>          
         </div>
-       
       </div>
-     
-      
+      <?php 
+            if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) { ?>
       <div class="col-lg-4">
-   
         <div class="single-service text-center">
           <i class=></i>
           <img src="<?php echo $row["img"] ?>" alt=""  width="350" height="350">
           <h2><?php echo $row["titre"] ?></h2>
           <p><?php echo $row["description"] ?>.</p>
-          <a href="service.php">View details</a>
-          
+          <a href="service.php">View details</a> 
         </div>
-        
       </div>
-      
-  <?php }
+      <?php }
             } else {
                 echo "0 results";
             }
         ?>
       </div>
 
-     
-  </div>
+      </div>
+
 </div>
 
 <!-- Estheticians-->
