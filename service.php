@@ -69,6 +69,9 @@ if (isset($_GET) && $_GET && $_GET['search']){
     </nav>
  
 
+
+
+    
 <!--about-->
 
 
@@ -107,6 +110,8 @@ if (isset($_GET) && $_GET && $_GET['search']){
 
 
 
+
+
 <!--services-->
 
 <div class="services section-padding" id="services">
@@ -140,6 +145,9 @@ if (isset($_GET) && $_GET && $_GET['search']){
       </div>
 
 </div>
+
+
+
 
 <!-- Estheticians-->
 
@@ -195,7 +203,29 @@ if (isset($_GET) && $_GET && $_GET['search']){
 </div>
 
 
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: pink;
 
+}
+.h2{
+  size: 25px;
+ text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2> Rating </h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+<br><br>
 
 <footer>
   <div class="container">

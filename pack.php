@@ -65,52 +65,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
     </nav>
  
 
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-  
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/service.jpg" alt="Los Angeles" class="d-block" style="width:100%">
-      <div class="carousel-caption">
-      <h5 class="animated fadeInDown"style="animation-delay: 1s;"> <span class="text-white"> Welcome to <br> <span class="text-danger background">BellaGlow Center</span></h5>
-<p class="animated fadeInUp" style="animation-delay: 1s;"><span class="text-white">Where Beauty Meets Serenity,we invite you to immerse yourself in a haven where self-care create a life of harmonious beauty.</p>
-<a href="service.phh"class="btn">Learn More</a>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/service3.jpg" alt="Chicago" class="d-block" style="width:100%">
-      <div class="carousel-caption">
-      <h5 class="animated fadeInDown"style="animation-delay: 1s;">beauty <span class="text-danger background">LifeStyle</span></h5>
-        <p class="animated fadeInUp" style="animation-delay: 1s;"> Enhance Your Beauty, Elevate Your Confidence and Stay connected with the latest beauty trends..</p>
-        <a href="service.php"class="btn">discover More</a>
-      </div> 
-    </div>
-    <div class="carousel-item">
-      <img src="img\service1.jpg" alt="New York" class="d-block" style="width:100%" width="900px" height="700px">
-      <div class="carousel-caption">
-      <h5 class="animated fadeInDown"style="animation-delay: 1s;">Hair &  <span class="text-danger background">Treatments</span></h5>
-        <p class="animated fadeInUp" style="animation-delay: 1s;">Because you need time for yourself, unlock the Secrets to Gorgeous, Healthy Hair.</p>
-        <a href="service.php"class="btn">discover More</a>
-      </div>  
-    </div>
-  </div>
-  
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
 
 
 
@@ -121,28 +76,25 @@ if (isset($_GET) && $_GET && $_GET['search']){
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="section-header text-center">
-          <h2>  About <span> Us</span></h2>
-          <p> BellaGlow space for everyone</p>
-        </div>
+        
       </div>
     </div>
  
     <div class="row">
       <div class="col-lg-5 col-sm-12">
         <div class="ab-img">
-          <img src="img/glow.jpeg" alt=""  width="400" height="350"> 
+          <img src="img\bt.jpg" alt=""  width="350px" height="550px"> 
         </div>
         </div>
      
 
       <div class="col-lg-5 col-sm-12">
         <div class="about-text">
-        <h4>Welcome To BellaGlow</h4>
-        <h2>better life with perfect body</h2>
+        <h3><span class=" text-danger background ">Welcome To BellaGlow</span></h3>
+        <h2>we offer to you a special pack</h2><br>
           <p>our  Center is founded on the belief that beauty should be accessible to all,
             Peaceful spa treatments for deep relaxation of the mind, reducing stress and life changing services. Whether you want to feel better in yourself, are attending a work or family event or maybe have a wedding come around, we have the treatments you need to look your best and feel amazing
-          </p>
+          </p><br>
           <a href="#">discover  More</a>
         </div>
     </div>
@@ -197,23 +149,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
 </div>
 
 
-<!-- quote -->
-<div class="quote section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="single-quote text-center">
-          <p>
-            <i class="fa-solid fa-quote-left"></i>
-            Beauty is incomplete without self-care, for every moment dedicated to nurturing yourself adds to your radiance and allure.
-            <i class="fa-solid fa-quote-right"></i>
-            <h5> Elise Joan</h5>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <!-- contact -->
 <div class="contact section-padding" id="contact">
